@@ -1,0 +1,115 @@
+ul{
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+ul li{
+    list-style-type: none;
+    margin-left: 10px;
+    margin-top: 15px;
+  
+    font-size: 14px;
+    padding-right: 20px;
+    
+}
+#google{ padding-right:850px;}
+@media(min-width: 1300px){
+    #google{
+        padding-right: 1100px;
+    }
+}
+@media(max-width: 1000px){
+    #google{
+        padding-right: 550px;
+    }
+}
+@media(max-width: 900px){
+    #google{
+        padding-right: 510px;
+    }
+}
+@media(max-width: 850px){
+    #google{
+        padding-right: 350px;
+    }
+}
+@media(max-width: 700px){
+    #google{
+        padding-right: 150px;
+    }
+}
+ul li a{
+    text-decoration: none;
+}
+
+h1{
+    font-size: 21px;
+    color: rgb(238, 78, 78);
+    padding: 0 0 20px 0;
+    }
+.heading{
+    border-bottom: 1px solid black;
+    margin-bottom: px;
+}
+div{
+    padding-left: 40px;
+}
+div select{
+    margin-top: 22px;
+    width: 438px;
+    height: 27px;
+}
+div input{
+    margin-top: 22px;
+    width: 431px;
+    height: 20px;
+}
+div label{
+    font-size: 14px;
+    margin-right: 50px;
+}
+.upper{
+    padding-top: 20px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid black;
+}
+button{
+    padding: 8px 10px;
+    margin: 20px 0 20px 524px;
+    background-color: rgb(109, 154, 252);
+    border: none;
+    border-radius: 2px;
+    font-size: 12px;
+}
+button:hover{
+    background-color: rgb(140, 177, 255);
+    transition: 0.3s;
+}
+.middle{
+    padding-top: 25px;
+    border-bottom: 1px solid black;
+    margin-bottom: 12px;
+}
+.last a{
+    text-decoration: none;
+    padding-bottom: 50px;
+}
+.lastt{
+    margin-top: 20px;
+    background-color: rgb(190, 189, 189);
+    padding-top: 4px;
+    border-bottom: 1px solid rgb(124, 124, 124);
+    color: rgb(80, 80, 80);
+}
+.last1{
+    background-color: rgb(190, 189, 189);
+    padding: 25px 0 20px 50px; 
+}
+.last1 a{
+    left: 0px;right: 0px;
+    bottom: 0px;
+    padding-right: 20px;
+    text-decoration: none;
+    color: rgb(80, 80, 80); 
+}
